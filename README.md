@@ -1,3 +1,5 @@
 # wholesomegames.com
 
-coming soon.
+Wholesome Games
+
+https://wholesomegames.com/

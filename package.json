@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "prebuild": "rmdir dist /s /q",
-    "build": "copyfiles README.md dist & parcel build -d dist src/index.html",
+    "build": "copyfiles CNAME README.md dist & parcel build -d dist src/index.html",
     "localbuild": "parcel build -d scraps/local src/index.html --public-url ./",
     "dev": "parcel -d dev_build src/index.html",
     "deploy": "gh-pages --dist dist --branch master"
@@ -19,7 +19,10 @@
     "url": "https://github.com/wholesomegames/wholesomegames.com/issues"
   },
   "homepage": "https://github.com/wholesomegames/wholesomegames.com#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "gsap": "^3.2.6"
+  },
   "devDependencies": {
     "autoprefixer": "^9.6.1",
     "copyfiles": "^2.1.1",
