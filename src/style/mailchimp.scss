@@ -5,6 +5,9 @@
     max-width: 392px;
     margin-bottom: 6%;
 
+    margin-left: auto;
+    padding-left: 20px;
+
     @media #{$medium-and-up} {
         padding-top: 20px;
 
@@ -15,6 +18,8 @@
         // right: 271px;
         top: 280px;
         left: calc(55% + 100px);
+        margin-left: 0;
+        padding-left: 0;
     }
 }
 

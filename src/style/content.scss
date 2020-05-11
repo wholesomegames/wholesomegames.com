@@ -275,6 +275,7 @@ body {
   left: 1742px;
   left: 40px;
   /* color: #707070; */
+  justify-content: flex-end;
 
   a {
     color: #4d4d4d;
@@ -534,6 +535,7 @@ hr {
 }
 
 .game-caption {
+  pointer-events: none;
   position: absolute;
   /* top: 0; */
   color: white;
@@ -662,7 +664,7 @@ hr {
 
   @media #{$large-and-up} {
     .brand-elliot-and-ko {
-      display: flex;
+      display: block;
     }
   
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -688,6 +690,10 @@ hr {
     max-height: 44px;
     max-height: 100% !important;
   }
+}
+
+.logo-tree-interactive {
+  padding: 0 8%;
 }
 
 .wiggle {
