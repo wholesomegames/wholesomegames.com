@@ -408,6 +408,10 @@ body {
 //   margin-left: 358px;
 // }
 
+.intro {
+  position: relative;
+}
+
 hr {
   margin: 54px auto;
   width: 256px;
@@ -464,12 +468,14 @@ hr {
 
 .game-cloud {
   top: 0;
-  top: -5%;
+  // top: -5%;
   width: 180%;
   position: absolute;
   left: -50%;
   overflow: hidden;
   z-index: -1;
+  margin-top: 5%;
+  margin-top: -36%;
 }
 
 .games {
